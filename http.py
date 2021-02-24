@@ -1,3 +1,6 @@
+# coded : AkasakaID
+# *-* utf-8 *-*
+
 import os
 try:
 	from colorama import *
