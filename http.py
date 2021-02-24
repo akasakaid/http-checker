@@ -1,9 +1,7 @@
-import threading
 import os
 try:
 	from colorama import *
 	import requests
-	from concurrent.futures import ThreadPoolExecutor
 except ImportError:
 	exit("module not installed\npip3 install colorama requests")
 r = requests.Session()
